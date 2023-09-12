@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#6A5ACD;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+header .logos {
+    height:90px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+
+
+
+
+li:hover{
+    border:solid orange;
+    color:orange;
+    border-radius:10px;
+}
+a{
+ text-align:center;
+ 
+ /*Ao clicar duas vezes não destaca a palavra como umas pesquisa*/
+ user-select:none
+}
+
+
+
+h1{
+    position:relative;
+    top:10px;
+}
+
+
+
+/* Lista de reprodução CSS*/
+
+main{
+    margin:10px;
+    min-height:600px;
+}
+.ListaDeMusicas{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.nomeAudio{
+    width:350px;
+    height:100px;
+    background-color:orange;
+    border-radius:10px;
+    
+}
+
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align:center;
+}
+
+.fotoDoAnime{
+    position:relative;
+    top:-10px;
+    display:block;
+    margin:auto;
+    
+}
+
+
+footer{
+    height:100px;
+}
+
+p{
+ text-align:center;
+}
+
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:visited{
+    color:white;
+}

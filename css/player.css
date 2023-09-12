@@ -1,0 +1,59 @@
+/*Header*/
+body{
+    margin:0;
+    padding:0;
+    background-color:#6A5ACD;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+header .logos {
+    height:90px;
+    width:100%;
+    display:flex;
+    justify-content:center;   
+}
+
+h1{
+    position:relative;
+    top:10px;
+}
+
+
+
+/* player CSS*/
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align:center;
+}
+
+iframe{ 
+    display: block;
+    margin: auto;
+    height: 600px; 
+    width: 60%;
+} 
+
+@media screen and (max-width: 992px) {
+  iframe {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 90%;
+  }
+}
+
+/*Footer*/
+footer{
+    height:100px;
+}
+
+p{
+ text-align:center;
+}
+   
