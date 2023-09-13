@@ -61,6 +61,9 @@ main{
     
 }
 
+.nomeAudio:hover{
+    border:solid white ;
+}
 
 h2{
     text-align:center;
