@@ -15,6 +15,12 @@ header .logos {
     
 }
 
+.nomeAudio:hover{
+    border:solid  ;
+}
+
+
+
 li:hover{
     border:solid orange;
     color:orange;
@@ -42,24 +48,8 @@ main{
     margin:10px;
     min-height:600px;
 }
-.ListaDeMusicas{
-    display:flex;
-    gap:10px;
-    flex-wrap:wrap;
-    justify-content:center;
-}
+l
 
-.nomeAudio{
-    width:350px;
-    height:100px;
-    background-color:orange;
-    border-radius:10px;
-    
-}
-
-.nomeAudio:hover{
-    border:solid white ;
-}
 
 h2{
     text-align:center;
@@ -69,23 +59,20 @@ h3{
     text-align:center;
 }
 
-.fotoDoAnime{
-    position:relative;
-    top:-10px;
-    display:block;
-    margin:auto;
-    
+
+
 }
-
-
 footer{
     height:100px;
 }
 
 p{
  text-align:center;
+ 
 }
 
+.cargo{
+    font-size:20px;}
 
 a{
     text-decoration:none;
@@ -94,4 +81,26 @@ a{
 
 a:visited{
     color:white;
+   
+}
+
+.criadores{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.criadoresBio{
+    background-color:orange;
+    height:300px;
+    width:300px;
+    
+}
+
+.imagemDev{
+    display:block;
+    margin:auto;
+    width:200px;
+    
 }

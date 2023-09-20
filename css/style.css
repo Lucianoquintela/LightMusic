@@ -15,12 +15,31 @@ header .logos {
     
 }
 
+
 ul{
    list-style:none;
    display:flex;
    justify-content:center;
    padding-left:0; /*Tirar o espaço antes de cada li */
-  gap:20px; 
+   gap:20px; 
+  
+}
+
+
+@media screen and (max-width: 992px) {
+  ul{   
+    gap:20px;
+   
+    
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .removerNoCelular{
+    display:none;
+    gap:10px;
+    flex-wrap: wrap;  
+  }
 }
 
 li{   
@@ -97,4 +116,9 @@ h1{
 }
 footer{
     height:100px;
+}
+
+.fotoAnime:hover{
+    position:relative;
+    border:solid white ;
 }
