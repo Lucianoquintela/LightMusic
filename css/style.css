@@ -104,6 +104,7 @@ h1{
     width:150px;
     height:200px;
     background-color:white;
+  
 }
 
 .imgAnime{
@@ -119,6 +120,7 @@ footer{
 }
 
 .fotoAnime:hover{
-    position:relative;
+    
     border:solid white ;
+   
 }
